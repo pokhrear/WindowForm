@@ -1,0 +1,35 @@
+USE [MegaBookDB]
+GO
+
+/****** Object:  Table [dbo].[REVIEWS]    Script Date: 2018-06-15 10:24:21 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[REVIEWS](
+	[Review_ID] [int] IDENTITY(1000,2) NOT NULL,
+	[Book_ID] [int] NOT NULL,
+	[Reviewer_Name] [varchar](50) NOT NULL,
+	[Review] [varchar](50) NOT NULL,
+	[Review_Date] [datetime] NOT NULL,
+	[Rating] [int] NULL,
+ CONSTRAINT [PK_Review] PRIMARY KEY CLUSTERED 
+(
+	[Review_ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[REVIEWS] ADD  DEFAULT (getdate()) FOR [Review_Date]
+GO
+
+ALTER TABLE [dbo].[REVIEWS]  WITH CHECK ADD  CONSTRAINT [FK_Book_ID] FOREIGN KEY([Book_ID])
+REFERENCES [dbo].[BOOKS] ([Book_ID])
+GO
+
+ALTER TABLE [dbo].[REVIEWS] CHECK CONSTRAINT [FK_Book_ID]
+GO
+
+

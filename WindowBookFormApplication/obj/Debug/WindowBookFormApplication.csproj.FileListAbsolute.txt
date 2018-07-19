@@ -1,0 +1,12 @@
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\obj\Debug\WindowBookFormApplication.csprojResolveAssemblyReference.cache
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\obj\Debug\WindowBookFormApplication.Form1.resources
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\obj\Debug\WindowBookFormApplication.Properties.Resources.resources
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\obj\Debug\WindowBookFormApplication.csproj.GenerateResource.cache
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\obj\Debug\WindowBookFormApplication.csproj.CoreCompileInputs.cache
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\bin\Debug\WindowBookFormApplication.exe.config
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\bin\Debug\WindowBookFormApplication.exe
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\bin\Debug\WindowBookFormApplication.pdb
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\obj\Debug\WindowBookFormApplication.exe
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\obj\Debug\WindowBookFormApplication.pdb
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\obj\Debug\WindowBookFormApplication.Form2.resources
+C:\Users\arjun\SourceCode\WindowBookFormApplication\WindowBookFormApplication\obj\Debug\WindowBookFormApplication.Form3.resources

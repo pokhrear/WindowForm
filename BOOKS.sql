@@ -1,0 +1,24 @@
+USE [MegaBookDB]
+GO
+
+/****** Object:  Table [dbo].[BOOKS]    Script Date: 2018-06-15 10:29:35 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[BOOKS](
+	[Book_Name] [nvarchar](50) NOT NULL,
+	[Author_Name] [nvarchar](50) NOT NULL,
+	[Publish_Date] [datetime] NOT NULL,
+	[ISBN] [nchar](10) NOT NULL,
+	[Book_ID] [int] IDENTITY(1,1) NOT NULL,
+ CONSTRAINT [PK_BOOKS] PRIMARY KEY CLUSTERED 
+(
+	[Book_ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
